@@ -29,7 +29,7 @@ width:500px;
 }
 
 .textbox p{
-    color:black;
+ color:black;
 }
 
 @media screen and (min-width:1400px) {
@@ -38,22 +38,38 @@ max-width: 100%;
 width:1000px;
 }
 
+body{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+header{
+grid-area: 1/1/2/3;
+}
 p{
-    color:darkcyan;
-    font-size: 18px;
-    text-align: left;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight:530;
+ color:darkcyan;
+ font-size: 18px;
+ text-align: left;
+ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight:530;
 }
 .square{
 max-width: 100%;
 width:500px;
-float: right;
-top:0;
+grid-area: 2/2/4/3;
+
+
+
 
 
 }
-
+.textbox{
+ background-color: darkcyan;
+ width:500px;
+  }
+    
+ .textbox p{
+ color:black;
+ }
 
 }
 

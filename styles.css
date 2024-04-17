@@ -18,6 +18,42 @@ text-align: center;
 }
 
 .square{
-size: 200px;
+max-width:100%;
+width: 600px;
 align-items: center;
 }
+
+.textbox{
+background-color: darkcyan;
+width:500px;
+}
+
+.textbox p{
+    color:black;
+}
+
+@media screen and (min-width:1400px) {
+.square{
+max-width: 100%;
+width:1000px;
+}
+
+p{
+    color:darkcyan;
+    font-size: 18px;
+    text-align: left;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:530;
+}
+.square{
+max-width: 100%;
+width:500px;
+float: right;
+top:0;
+
+
+}
+
+
+}
+
